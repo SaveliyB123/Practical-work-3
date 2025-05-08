@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Моє портфоліо</title>
+  <link rel="icon" href="image/3471175.png" type="image/x-icon">
+
+</head>
+<body>  
+
+  <div class="container">
+<!--Секція про мене-->
+    <section class="card about">
+      <img src="image/Profilefoto.png" alt="Моє фото">
+      <div>
+        <h2>Про мене</h2>
+        <p>Я — веб‑розробник початкового рівня з прагненням постійно вчитися та покращувати свої навички. Маю досвід створення адаптивних та семантичних сторінок із чистим HTML і CSS, слухаючи сучасні стандарти й найкращі практики. Працював із JavaScript‑фреймворками, а також пишу невеликі скрипти та автоматизую рутинні завдання на Python.</p>
+      </div>
+    </section>
+
+<!--Секція скілів-->
+    <section class="card skills"> 
+      <h2>Навички</h2>
+      <div class="skill">
+        <div class="skill-name">HTML</div>
+        <div class="progress"><div class="progress-bar" style="width: 70%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">CSS</div>
+        <div class="progress"><div class="progress-bar" style="width: 55%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">JavaScript</div>
+        <div class="progress"><div class="progress-bar" style="width: 45%;"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">Python</div>
+        <div class="progress"><div class="progress-bar" style="width: 60%;"></div></div>
+      </div>
+    </section>
+
+<!-- Портфоліо -->
+    <section class="card portfolio">
+      <h2>Портфоліо</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+        <a href="https://www.figma.com/design/jVUnNmQom2PDpjEq3FKtb4/Laboratorna4_Balabanov?node-id=0-1&t=5NEYsetqLHO8hnuA-1">
+          <img src="image/Screenshot_1.png" alt="Figma" >
+        </a>
+          <div>Figma</div>
+        </div>
+        <div class="portfolio-item">
+          <a href="https://ek24-sbalabanov.wixsite.com/next-2025">
+          <img src="image/Screenshot_2.png" alt="Wix">
+          </a>
+          <div>Wix</div>
+        </div>
+        <div class="portfolio-item">
+          <a href="https://github.com/SaveliyB123">
+          <img src="image/Screenshot_3.png" alt="Github">
+          </a>
+          <div class>Github</div>
+        </div>
+      </div>
+    </section>
+
+<!-- Контакти -->
+    <section class="card contact">
+      <h2>Контакти</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Ім’я" required>
+        <input type="email" name="email" placeholder="Електронна пошта" required>
+        <textarea name="message" rows="4" placeholder="Повідомлення" required></textarea>
+        <button type="submit">Відправити</button>
+      </form>
+    </section>
+
+  </div>
+
+</body>
+</html>
